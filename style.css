@@ -1,0 +1,130 @@
+/* Configurações tabela */
+
+table{
+    border: solid 1px #DDDDDD;
+    border-collapse: collapse;
+    margin: auto;
+    font-family: Arial;
+}
+th, td{
+    border: solid 1px #DDDDDD;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+    font-family: Arial;
+}
+
+/* Posição de classificação*/
+.azul-marinho{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color:#003366;
+    width: 25px;
+}
+.azul-celeste{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color:#1398BE;
+    width: 25px;
+}
+.laranja{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color:#DE9800;
+    width: 25px;
+}
+.cinza{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #CCCCCC;
+    width: 25px;
+}
+.vermelho{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #c91b04;
+    width: 25px;
+}
+
+/* Titulo das colunas */
+th{
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Nome dos times*/
+.time{
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+    width: 200px;
+}
+
+/* Pontos dos times */
+.pontos-time{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color:#000000;
+    background-color: #F7F7F7;
+    width: 40px;
+}
+
+/* Demais classificações*/
+.V, .D, .GC, .percent{
+    font-size: 14px;
+    text-align: center;
+    color:#000000;
+    background-color: #F7F7F7;
+    width: 40px;
+}
+
+.J, .E, .GP, .SG{
+    font-size: 14px;
+    text-align: center;
+    color:#666666;
+    width: 40px;
+}
+
+/*Legendas*/
+.areaclass{
+    font-size: 10px;
+    text-align: left;
+    color:#8F8F8F;
+    border-bottom: hidden;
+}
+
+tfoot{
+    font-size: 10px;
+    text-align: left;
+    color:#555555;
+}
+
+/* icons */
+.taça{
+    color: #003366;
+}
+.pré{
+    color: #1398BE;
+}
+.sulamericana{
+    color: #DE9800;
+}
+.rebaixados{
+    color: #c91b04;
+}
+
+/* linha inferior*/
+.quatro, .desseseis{
+    border-bottom: solid 2px #CCCCCC;
+}
+
